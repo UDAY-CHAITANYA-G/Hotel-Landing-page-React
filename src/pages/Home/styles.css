@@ -16,3 +16,7 @@ button{
     color: white;
     border-radius: 10rem;
 }
+
+button:hover{
+    cursor: pointer;
+}
