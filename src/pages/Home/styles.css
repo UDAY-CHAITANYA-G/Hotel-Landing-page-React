@@ -1,0 +1,16 @@
+.Filter-options button{
+    display: block;
+    background-color: rgba(133, 193, 208, 0.867);
+    border-radius: 10rem ;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(181, 221, 231, 0.867);
+    font-weight: 700;  
+}
+
+button{
+    border: 1px solid rgb(82, 9, 141);
+    background-color:  rgb(82, 9, 141);
+    padding: 0.3rem 0.7rem;
+    color: white;
+    border-radius: 10rem;
+}

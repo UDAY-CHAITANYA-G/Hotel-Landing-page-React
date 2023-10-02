@@ -1,0 +1,15 @@
+.icon-box{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    border: 1px solid;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.icon-box svg{
+    /* padding: 0.5rem; */
+    font-size: 1.3rem;
+}

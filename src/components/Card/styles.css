@@ -1,0 +1,94 @@
+.card{
+    background-color:white ;
+    width: 17rem;
+    height: 23rem;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+
+.card .image-box{
+    background-color: black;
+    height: 10rem;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+}
+
+.image-box .image-over-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.image-over-section .forrent ,
+.like {
+    background-color: aliceblue;
+}
+
+.forrent {
+    border-radius: 25rem;
+    padding: 0.2rem 0.7rem;
+    font-weight: 600;
+    color: rgb(120, 78, 183);
+}
+
+.like{
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+.populartag{
+    background-color: rgb(104, 34, 184);
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 7.4rem;
+    margin-left: -1.3rem;  
+}
+.box-main-body{
+    margin-top: 1.4rem;
+    padding: 0.6rem;
+}
+.box-main-body .location{
+    font-weight: 500;
+    color: rgb(58, 58, 90);
+}
+.hotel-name h3{
+    margin: 0;
+    margin-top: 0.2rem;
+    font-weight: 600;
+}
+.hotel-info{
+    border-bottom:1px dotted  rgb(198, 180, 180);
+    padding: 0.2rem;
+}
+.Box-bro{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-right:1px dotted rgb(198, 180, 180);
+    width: 4rem;
+}
+
+.box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+}
+.box-bottom .rent-money{
+    color: rgba(127, 14, 233, 0.859);
+    font-weight: 700;
+}
+.rent-money a{
+    color: rgb(10, 10, 10);
+    font-weight: 500;
+}
+
+.readmore{
+    border: 1px solid  rgba(127, 14, 233, 0.859);
+    color:  rgba(80, 29, 128, 0.859);
+    border-radius: 10rem;
+    padding: 0.3rem 0.7rem;
+    font-weight: 500;
+}
