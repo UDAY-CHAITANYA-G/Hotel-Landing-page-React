@@ -6,6 +6,10 @@
     border-radius: 0.7rem;
 }
 
+.card:hover{
+    cursor: pointer;
+}
+
 .card .image-box{
     background-color: black;
     height: 10rem;

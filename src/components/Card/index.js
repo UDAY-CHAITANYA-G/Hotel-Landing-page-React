@@ -1,12 +1,14 @@
 import React from "react";
+import { useNavigate} from 'react-router-dom';
 import {FiHeart, FiMapPin} from "react-icons/fi"
 import Icons from "../Icon";
 
 import "./styles.css";
 
 export default function Card(props){
+    const navigate = useNavigate();
     return (
-        <div className="card">
+        <div className="card" onClick={()=>{ props.isLink && navigate("/"+props.id)}}>
             <div className="image-box">               
                 <div className="image-over-section">
                     <div className="forrent">For Rent</div>
