@@ -1,0 +1,16 @@
+.filter-options{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.filter-options button{
+    display: flex;
+    background-color: rgba(133, 193, 208, 0.867);
+    border-radius: 10rem ;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(181, 221, 231, 0.867);
+    font-weight: 700;  
+}
