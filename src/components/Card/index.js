@@ -1,6 +1,5 @@
 import React from "react";
-import {FaHotel} from "react-icons/fa";
-import Icons from "../Icon";
+import Icons from "../icon";
 
 import "./styles.css";
 
