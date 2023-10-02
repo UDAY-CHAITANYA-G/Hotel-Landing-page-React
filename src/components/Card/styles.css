@@ -32,8 +32,12 @@
 }
 
 .like{
-    border-radius: 50%;
-    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20rem;
+    padding: 0.2rem;
+    width: 1rem;
 }
 .populartag{
     background-color: rgb(104, 34, 184);
