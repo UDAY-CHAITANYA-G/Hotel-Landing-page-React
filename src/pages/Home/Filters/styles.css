@@ -14,3 +14,9 @@
     border: 1px solid rgba(181, 221, 231, 0.867);
     font-weight: 700;  
 }
+
+.filter-options button:hover{
+    border: 1px solid rgba(181, 221, 231, 0.867);
+    color: rgba(133, 193, 208, 0.867);
+    background-color: white;
+}
