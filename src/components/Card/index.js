@@ -1,6 +1,6 @@
 import React from "react";
 import {FaHotel} from "react-icons/fa";
-// import Icons from "../icon";
+import Icons from "../Icon";
 
 import "./styles.css";
 
@@ -20,10 +20,11 @@ export default function Card(props){
                 <div className="hotel-name"><h3>name</h3></div>
                 <div className="hotel-info">
                     <div className="Box-bro">
-                        <FaHotel />
-                        <a>3 Room</a>
+                        <Icons type={1} count={"3"}/>
+                        <Icons type={2} count={"3"}/>
+                        <Icons type={3} count={"1"}/>
+                        <Icons type={4} area={"745 sft"} />
                     </div>
-                {/* <Icons type={2} text={"3 Rooms"}/> */}
                 </div>
             </div>
             <div className="box-bottom">

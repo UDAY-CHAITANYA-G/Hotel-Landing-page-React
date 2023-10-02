@@ -6,7 +6,7 @@ import Card from "../../components/Card";
 
 export default function Home(){
     return (
-        <div className="Home">
+        <div className="home">
             <Header />
             <div className="Filter-options">
                 <button>New York</button>

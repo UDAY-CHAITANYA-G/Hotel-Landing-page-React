@@ -1,15 +1,27 @@
+
+
 .icon-box{
     display: flex;
-    width: 3rem;
-    height: 3rem;
-    padding-left: 0.5rem;
-    border: 1px solid;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+    border-right:1px dotted rgb(198, 180, 180);
+    width: 100%;
 }
 
-.icon-box svg{
-    /* padding: 0.5rem; */
+.icon-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;    
+}
+
+.icon-box div svg{
     font-size: 1.3rem;
+    padding: 0%;
+}
+
+.icon-box div p{
+    margin: 0;
 }
