@@ -17,6 +17,11 @@
     padding: 0.3rem;
 }
 
+.card .image-box img{
+    width: 100%;
+    height: 100%;
+}
+
 .image-box .image-over-section{
     display: flex;
     justify-content: space-between;

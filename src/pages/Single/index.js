@@ -13,7 +13,7 @@ export default function Single(){
     },[id]);
     return (
     <div className="single">
-       {data && <Card id={data.id} name={data.name} address={data.address} city={data.city} image={data.image_link} room={data.room} bed={data.bed} bath={data.bath} area={data.area} price={data.price} popular={data.popular}/>}
+       {data.name && <Card id={data.id} name={data.name} address={data.address} city={data.city} image={data.image_link} room={data.room} bed={data.bed} bath={data.bath} area={data.area} price={data.price} popular={data.popular}/>}
        {!data && <p>Invalid</p> }
     </div>
     );
